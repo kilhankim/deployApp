@@ -1,0 +1,25 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "app": "app.js"
+  },
+  "scripts": {
+    "build": "pkg ."
+  },
+  "pkg": {
+    "targets": [
+      "node10"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "pkg": "^4.4.2",
+    "require": "^2.4.20"
+  }
+}
